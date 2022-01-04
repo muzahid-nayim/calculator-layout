@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+}
+.card{
+  margin: 0 auto;
+  max-width: 350px;
+  text-align: center;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px 0 #2C36AD5C;
+  transition: 0.3s;
+  font-size: 0;
+  border: 6px solid #2A3794;
+  border-radius: 3px;
+  background-image: url(images.jpeg);
+}
+.card:hover{
+  box-shadow: 0 16px 32px 0 #2C36AD5C;
+}
+.cal-header #result{
+  width: 335px;
+  height: 80px;
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: right;
+  padding-right: 5px;
+  letter-spacing: 3px;
+  border: 5px solid #354E57;
+}
+.btn{
+  width: 87px;
+  height: 70px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #236ABE;
+  color: lightyellow;
+  transition: .5s;
+}
+.d1{
+  background-color: #57FEBB;
+  width: 87px;
+  height: 70px;
+  font-weight: bold;
+  font-size: 17px;
+  transition: .5s;
+}
+
+.btn:focus{
+  background-color: #216AA5;
+  color: #FFBD00;
+  transform: rotate(30deg);
+  font-size: 40px;
+}
+.d1:hover{
+  transform: rotate(-30deg);
+  background-color: #00FF44;
+  color: red;
+  font-size: 40px;
+  height: 70px;
+}
+.eq{
+  background-color: #57FEBB;
+  width: 87px;
+  height: 70px;
+  font-weight: bold;
+  font-size: 17px;
+  transition: .5s;
+}
+.eq:hover{
+  transform: rotate(-30deg);
+  background-color: #00FF44;
+  color: red;
+  font-size: 40px;
+  height: 100px;
+}
